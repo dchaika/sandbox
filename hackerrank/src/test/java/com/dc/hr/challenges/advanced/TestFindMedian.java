@@ -1,5 +1,6 @@
-package com.dc.hr.challenges;
+package com.dc.hr.challenges.advanced;
 
+import com.dc.hr.challenges.advanced.FindMedian;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.dc.hr.challenges;
+package com.dc.hr.challenges.advanced;
 
 import java.util.List;
 import java.util.stream.Collectors;
