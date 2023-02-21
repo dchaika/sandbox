@@ -4,7 +4,6 @@ import java.time.format.DateTimeFormatter;
 
 public class TimeConversion {
 
-
     /*
      * Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
      * Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
@@ -17,7 +16,6 @@ public class TimeConversion {
      */
 
     public static String timeConversion(String s) {
-        // Write your code here
         DateTimeFormatter dtfIn = DateTimeFormatter.ofPattern("hh:mm:ssa");
         DateTimeFormatter dtfOut = DateTimeFormatter.ofPattern("HH:mm:ss");
         return dtfOut.format(dtfIn.parse(s));
