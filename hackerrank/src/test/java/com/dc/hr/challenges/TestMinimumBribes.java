@@ -24,31 +24,31 @@ public class TestMinimumBribes {
     }
 
     @Test
-    void testCase1_1() {
+    void testCase0_1() {
         MinimumBribes.minimumBribes(Arrays.asList(2, 1, 5, 3, 4));
         Assertions.assertEquals("3", outputStreamCaptor.toString().trim());
     }
 
     @Test
-    void testCase1_2() {
+    void testCase0_2() {
         MinimumBribes.minimumBribes(Arrays.asList(2, 5, 1, 3, 4));
         Assertions.assertEquals("Too chaotic", outputStreamCaptor.toString().trim());
     }
 
     @Test
-    void testCase2_1() {
+    void testCase1_1() {
         MinimumBribes.minimumBribes(Arrays.asList(1, 2, 5, 3, 7, 8, 6, 4));
         Assertions.assertEquals("7", outputStreamCaptor.toString().trim());
     }
 
     @Test
-    void testCase2_2() {
+    void testCase1_2() {
         MinimumBribes.minimumBribes(Arrays.asList(5, 1, 2, 3, 7, 8, 6, 4));
         Assertions.assertEquals("Too chaotic", outputStreamCaptor.toString().trim());
     }
 
     @Test
-    void testCase3() {
+    void testCase11() {
         MinimumBribes.minimumBribes(Arrays.asList(1, 2, 5, 3, 4, 7, 8, 6));
         Assertions.assertEquals("4", outputStreamCaptor.toString().trim());
     }
